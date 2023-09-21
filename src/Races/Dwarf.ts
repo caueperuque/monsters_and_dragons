@@ -1,6 +1,6 @@
 import Race from './Race';
 
-class Dwarf extends Race {
+export default class Dwarf extends Race {
   private _maxLifePoints = 80;
   private static _instances = 0;
 
@@ -17,5 +17,3 @@ class Dwarf extends Race {
     return Dwarf._instances;
   }
 }
-
-export default Dwarf;
