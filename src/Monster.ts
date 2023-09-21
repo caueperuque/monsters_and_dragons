@@ -4,7 +4,7 @@ export default class Monster implements SimpleFighter {
   private _lifePoints: number;
   private _strength: number;
 
-  constructor(life: number, s: number) {
+  constructor(life?: number, s?: number) {
     this._lifePoints = life || 85;
     this._strength = s || 63;
   }
